@@ -36,9 +36,16 @@ const FAQ = () => {
                             </p>
                             <div className="p-6 bg-slate-50 rounded-2xl border border-slate-100 inline-flex items-center gap-4">
                                 <MessageCircleQuestion className="w-8 h-8 text-sky-600" />
-                                <div>
+                                <div className="flex flex-col gap-4">
                                     <div className="font-bold text-slate-900">더 궁금한 점이 있으신가요?</div>
-                                    <div className="text-sm text-slate-500">주민 센터를 방문하시거나 전화주세요.</div>
+                                    <div className="text-sm text-slate-500 mb-2">주민 센터를 방문하시거나 전화주세요.</div>
+                                    <a
+                                        href="/documents/promotion_brochure.pdf"
+                                        download
+                                        className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-sky-600 hover:bg-sky-700 text-white rounded-xl font-bold transition-all shadow-lg shadow-sky-200"
+                                    >
+                                        사업 홍보책자 다운로드 (PDF)
+                                    </a>
                                 </div>
                             </div>
                         </div>

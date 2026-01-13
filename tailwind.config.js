@@ -25,7 +25,7 @@ export default {
       },
       fontFamily: {
         sans: ['Inter', 'sans-serif'],
-        serif: ['Playfair Display', 'serif'],
+        serif: ['Noto Serif KR', 'Playfair Display', 'serif'],
       },
       animation: {
         'fade-in-up': 'fadeInUp 0.8s ease-out forwards',

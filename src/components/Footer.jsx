@@ -44,7 +44,7 @@ const Footer = () => {
                     <div>
                         <h4 className="text-white font-bold mb-6">문의처</h4>
                         <ul className="space-y-4 text-sm">
-                            <li><a href="#" className="hover:text-sky-400 transition-colors">전화: 02-1234-5678</a></li>
+                            <li><a href="tel:010-6266-8290" className="hover:text-sky-400 transition-colors">전화: 010-6266-8290</a></li>
                             <li><a href="#" className="hover:text-sky-400 transition-colors">이메일: contact@mokdonghub.kr</a></li>
                             <li><a href="#" className="hover:text-sky-400 transition-colors">주소: 서울시 양천구 목동</a></li>
                         </ul>

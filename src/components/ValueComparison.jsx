@@ -27,7 +27,7 @@ const ValueComparison = () => {
                         <div className="mb-8 flex justify-center">
                             <Home className="w-16 h-16 text-slate-300" />
                         </div>
-                        <h3 className="text-2xl font-bold mb-2 text-center">낡은 빌라 / 주택</h3>
+                        <h3 className="text-2xl font-bold mb-2 text-center font-serif">낡은 빌라 / 주택</h3>
                         <p className="text-center mb-8 text-sm break-keep">건물 가치 하락, 심각한 주차난, 화재 및 안전 취약.</p>
 
                         <div className="space-y-4 border-t border-slate-100 pt-6">
@@ -71,7 +71,7 @@ const ValueComparison = () => {
                         <div className="space-y-4 border-t border-white/10 pt-6">
                             <div className="flex justify-between items-center">
                                 <span className="text-sky-200">예상 자산 가치</span>
-                                <span className="font-bold text-2xl text-accent-GOLD">약 25-30억 원</span>
+                                <span className="font-bold text-2xl text-accent-GOLD font-serif">약 25-30억 원</span>
                             </div>
                             <div className="flex justify-between">
                                 <span className="text-sky-200">분담금 부담</span>
@@ -79,7 +79,7 @@ const ValueComparison = () => {
                             </div>
                             <div className="p-4 bg-sky-600/20 rounded-xl border border-sky-500/30 text-center mt-4">
                                 <span className="text-sm block text-sky-200 mb-1">예상 시세 차익</span>
-                                <span className="text-3xl font-bold text-white">+ 15억 원 이상</span>
+                                <span className="text-3xl font-bold text-white font-serif">+ 15억 원 이상</span>
                             </div>
                         </div>
                     </motion.div>
