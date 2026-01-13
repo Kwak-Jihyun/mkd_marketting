@@ -19,7 +19,7 @@ function App() {
         <div className="container mx-auto px-6 flex justify-between items-center">
           <div className="text-white text-2xl font-bold font-serif tracking-tight flex items-center gap-2 relative z-50">
             <span className="w-8 h-8 bg-accent-GOLD rounded-lg flex items-center justify-center text-slate-900 font-bold">M</span>
-            <span>목동<span className="text-sky-400">복합</span></span>
+            <span>목동역<span className="text-sky-400">도심복합</span></span>
           </div>
 
           {/* Desktop Menu */}

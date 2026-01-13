@@ -21,23 +21,19 @@ const Contact = () => {
 
                     <h2 className="text-3xl md:text-5xl lg:text-6xl font-serif font-bold mb-8 break-keep">
                         동의서는 '결정'이 아닌, <br />
-                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-200 to-amber-500">시작을 위한 첫걸음입니다.</span>
+                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-200 to-amber-500">첫걸음 입니다.</span>
                     </h2>
 
                     <div className="text-lg text-slate-300 mb-12 leading-relaxed max-w-3xl mx-auto break-keep space-y-6">
-                        <p>
-                            지구지정동의서 받기 위한 첫날, 대망의 1월 13일입니다.<br />
-                            우리 단지의 미래가 여러분의 적극적인 참여에 달려 있습니다.
-                        </p>
                         <div className="bg-white/5 p-6 rounded-2xl border border-white/10">
                             <h3 className="text-xl font-bold text-white mb-2">왜 지금인가요?</h3>
                             <p>
-                                지금 동의서를 내지 않아서 사업이 지연되면<br />
-                                <span className="text-amber-400 font-bold">지연된 시간만큼 우리 모두의 비용이 늘어나게 됩니다.</span>
+                                지금 동의서를 내지 않아 지연되면<br />
+                                <span className="text-amber-400 font-bold">그 만큼 우리 모두의 비용이 늘어나게 됩니다.</span>
                             </p>
                         </div>
                         <p>
-                            지금 동의하신다고 해서 바로 집을 나가는 것이 아닙니다. <br />
+                            지금 동의하신다고 바로 집을 나가는 것이 아닙니다. <br />
                             우리 재산의 가치를 제대로 평가받기 위한 첫걸음을 떼는 것입니다.
                         </p>
                     </div>
@@ -48,7 +44,7 @@ const Contact = () => {
                             <div className="h-4 bg-slate-700 rounded-full overflow-hidden">
                                 <motion.div
                                     initial={{ width: 0 }}
-                                    whileInView={{ width: "58%" }}
+                                    whileInView={{ width: "23%" }}
                                     transition={{ duration: 1.5, ease: "easeOut" }}
                                     className="h-full bg-gradient-to-r from-sky-500 to-green-500 relative"
                                 >
@@ -56,7 +52,7 @@ const Contact = () => {
                                 </motion.div>
                             </div>
                             <div className="flex justify-between mt-2 text-sm font-bold font-serif">
-                                <span className="text-white">58% 달성</span>
+                                <span className="text-white">23% 달성</span>
                                 <span className="text-emerald-400">목표 67%</span>
                             </div>
                         </div>
@@ -82,7 +78,7 @@ const Contact = () => {
 
                         <div className="pt-6 border-t border-white/10">
                             <p className="text-slate-300 mb-4 font-medium">
-                                "서류 쓰기 복잡하다", "어디로 낼지 모르겠다" 하시는 분들!<br />
+                                "서류 쓰기 복잡하다", "어디로 낼지 모르겠다"<br />
                                 아래로 연락주시면 직접 안내드리겠습니다.
                             </p>
                             <div className="space-y-2">

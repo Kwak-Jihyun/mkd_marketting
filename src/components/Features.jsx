@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Clock, ShieldCheck, TrendingUp, Building2, Trees, Train } from 'lucide-react';
+import parkImg from '../assets/park.png';
 
 const benefits = [
     {
@@ -116,7 +117,7 @@ const Features = () => {
                             {/* Using a placeholder or the park image if available */}
                             <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent z-10" />
                             <img
-                                src="/src/assets/park.png"
+                                src={parkImg}
                                 alt="국회대로 공원 조감도"
                                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                                 onError={(e) => { e.target.src = 'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80' }}

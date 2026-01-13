@@ -44,7 +44,7 @@ const Hero = () => {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.6 }}
                     >
-                        <span className="inline-block py-1 px-3 rounded-full bg-accent-GOLD/20 border border-accent-GOLD/50 text-accent-GOLD text-sm font-medium tracking-wide mb-6">
+                        <span className="inline-block py-1 px-3 rounded-full bg-accent-GOLD/70 border border-accent-GOLD/50 text-accent-BLACK text-sm font-medium tracking-wide mb-6">
                             목동역 역세권 도심 공공주택 복합사업
                         </span>
                         <h1 className="text-5xl lg:text-7xl font-serif font-bold leading-tight drop-shadow-lg">
@@ -75,20 +75,20 @@ const Hero = () => {
                             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                         </a>
                         <a
+                            href="/documents/submission_guide.pdf"
+                            download
+                            className="flex items-center gap-2 px-8 py-4 bg-white/10 border border-white/20 hover:bg-white/20 text-white rounded-full font-medium transition-all backdrop-blur-md"
+                        >
+                            <Info className="w-5 h-5 text-sky-400" />
+                            제출방법 안내 PDF
+                        </a>
+                        <a
                             href="/documents/promotion_brochure.pdf"
                             download
                             className="flex items-center gap-2 px-8 py-4 bg-white/10 border border-white/20 hover:bg-white/20 text-white rounded-full font-medium transition-all backdrop-blur-md"
                         >
                             <Info className="w-5 h-5 text-accent-GOLD" />
                             사업 홍보책자 PDF
-                        </a>
-                        <a
-                            href="/documents/submission_guide.pdf"
-                            download
-                            className="flex items-center gap-2 px-8 py-4 bg-white/10 border border-white/20 hover:bg-white/20 text-white rounded-full font-medium transition-all backdrop-blur-md"
-                        >
-                            <Info className="w-5 h-5 text-sky-400" />
-                            제출방법 안내 (PDF)
                         </a>
                     </motion.div>
 
