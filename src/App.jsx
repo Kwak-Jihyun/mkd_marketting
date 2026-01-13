@@ -3,6 +3,7 @@ import Hero from './components/Hero';
 import Features from './components/Features';
 import FAQ from './components/FAQ';
 import ValueComparison from './components/ValueComparison';
+import ProjectDetails from './components/ProjectDetails';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import { Menu, X } from 'lucide-react';
@@ -72,6 +73,7 @@ function App() {
         <Hero />
         <Features />
         <ValueComparison />
+        <ProjectDetails />
         <FAQ />
         <Contact />
       </main>

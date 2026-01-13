@@ -49,7 +49,10 @@ const Hero = () => {
                         </span>
                         <h1 className="text-5xl lg:text-7xl font-serif font-bold leading-tight drop-shadow-lg">
                             목동의 새로운 <br />
-                            <span className="text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-white">
+                            <span
+                                className="text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-white"
+                                style={{ WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}
+                            >
                                 49층 스카이라인
                             </span>
                         </h1>

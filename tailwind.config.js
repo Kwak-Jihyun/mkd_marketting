@@ -21,6 +21,7 @@ export default {
         },
         accent: {
           GOLD: '#D4AF37',
+          BLACK: '#0f172a',
         }
       },
       fontFamily: {
