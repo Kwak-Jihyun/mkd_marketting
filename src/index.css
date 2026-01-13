@@ -11,11 +11,8 @@
     scroll-behavior: smooth;
   }
 
-  @media (prefers-color-scheme: dark) {
-
-    html,
-    body {
-      background: #fff !important;
-    }
+  :root {
+    color-scheme: light dark;
   }
+
 }
