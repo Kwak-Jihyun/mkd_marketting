@@ -2,18 +2,25 @@ import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ArrowRight, Info } from 'lucide-react';
 import landmarkImg1 from '../assets/landmark_v2.png';
-import landmarkImg2 from '../assets/landmark.png';
-import landmarkImg3 from '../assets/landmark_v4.png';
+import landmarkImg2 from '../assets/landmark_v3.png';
+import landmarkImg3 from '../assets/landmark.png';
+import landmarkImg4 from '../assets/landmark_v4.png';
 
-const images = [landmarkImg1, landmarkImg2, landmarkImg3];
+const images = [landmarkImg1, landmarkImg2, landmarkImg3, landmarkImg4];
 
 const Hero = () => {
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
     useEffect(() => {
+        // Preload all images
+        images.forEach((image) => {
+            const img = new Image();
+            img.src = image;
+        });
+
         const timer = setInterval(() => {
             setCurrentImageIndex((prev) => (prev + 1) % images.length);
-        }, 5000); // Change every 5 seconds
+        }, 2000);
 
         return () => clearInterval(timer);
     }, []);
@@ -28,7 +35,7 @@ const Hero = () => {
                         key={currentImageIndex}
                         src={images[currentImageIndex]}
                         alt={`Mok-dong Landmark ${currentImageIndex + 1}`}
-                        className="absolute inset-0 w-full h-full object-cover"
+                        className="absolute inset-0 w-full h-full object-cover object-[50%_20%]"
                         initial={{ opacity: 0, scale: 1.1 }}
                         animate={{ opacity: 1, scale: 1 }}
                         exit={{ opacity: 0 }}
@@ -48,7 +55,7 @@ const Hero = () => {
                             목동역 역세권 도심 공공주택 복합사업
                         </span>
                         <h1 className="text-5xl lg:text-7xl font-serif font-bold leading-tight drop-shadow-lg">
-                            목동의 새로운 <br />
+                            목동역의<br />
                             <span
                                 className="text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-white"
                                 style={{ WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}
